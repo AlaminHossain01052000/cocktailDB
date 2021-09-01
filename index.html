@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cocktail DB</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="heading" class="d-flex mx-auto justify-content-center align-items-center">
+            <img height="35px" width="35px" class="me-5" src="sefuda.jpg" alt="">
+            <h1 class="fs-35p text-center my-5">!!!Welcome to Cocktail World!!!</h1>
+            <img height="35px" width="35px" class="ms-5" src="sefuda.jpg" alt="">
+        </div>
+        <div id="input-group">
+
+            <div class="input-group m-3 w-50 mx-auto">
+                <input id="search-text" type="text" class="form-control border border-primary bg-black text-white"
+                    placeholder="Favourite Drinks Name..." aria-label="Recipient's username"
+                    aria-describedby="button-addon2">
+                <button onclick="getSearchedText()" class="btn btn-danger text-white" type="button"
+                    id="search-button">search</button>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="spinner-border" role="status" id="spinner">
+
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <div class="card-group container row-cols-3 mt-5" id="display-area">
+
+
+
+        </div>
+        <!-- Button trigger modal -->
+
+
+        <!-- Modal -->
+
+
+
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center" id="staticBackdropLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

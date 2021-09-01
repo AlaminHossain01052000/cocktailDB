@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&family=Roboto:ital@1&display=swap');
+
+body{
+    background-color: #5C4F87;
+    
+}
+#spinner{
+    display: none;
+}
+.invalid-text{
+    font-size: 50px;
+    margin: 0 auto;
+    color:#d63031;
+}
+#heading{
+    font-family: 'Roboto', sans-serif;
+}
+#heading h1{
+    color: #dfe6e9;
+    
+}
+.fs-35p{
+    font-size: 35px;
+}
+.per-card{
+    width:80%;
+    text-align: center;
+    height:350px;
+    padding:10px;
+    background-color: black;
+    margin-bottom: 10px;
+    
+}
+.card-heading{
+    font-family: 'Dancing Script', cursive;
+}
+.more-details-button{
+    background-color: #e84393;
+    border-width:0px; 
+    color:white;
+    margin-top:10px;
+    font-family: 'Advent Pro', sans-serif; 
+    font-weight:600;
+  
+}
+.more-details-button:hover{
+    background-color: #fd79a8;
+    color:#dfe6e9;
+  
+}
+
+.modal-body{
+    height: 600px;
+}
+.modal-header .modal-title{
+    font-size: 30px;
+   
+    
+}
+#ingredient-list{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+}
+.modal-content{
+    background-color: #2d3436;
+    color:#dfe6e9;
+    height: 1000px;
+    
+
+}
+.btn-close{
+    background-color:whitesmoke;
+    color:#2d3436;
+}
